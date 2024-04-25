@@ -22,7 +22,7 @@ const Login = () => {
 					<p className="text-sm md:text-base text-center font-inter">
 						Don’t have an account?{" "}
 						<Link
-							to="/sign-up"
+							to="/register"
 							className="font-semibold text-[#735355]"
 						>
 							Sign up

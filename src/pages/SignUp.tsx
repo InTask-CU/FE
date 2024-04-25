@@ -20,12 +20,12 @@ const SignUp = () => {
 					</h1>
 					<SignUpForm />
 					<p className="text-sm md:text-base text-center font-inter">
-						Don’t have an account?{" "}
+						Already have an account?{" "}
 						<Link
-							to="/sign-up"
+							to="/"
 							className="font-semibold text-[#735355]"
 						>
-							Sign up
+							Sign in
 						</Link>
 					</p>
 				</section>
