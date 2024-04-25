@@ -10,7 +10,7 @@ const Login = () => {
 				<div className="hidden lg:flex items-center">
 					<img
 						className="aspect-auto w-[90%]"
-						src="/public/assets/images/login.png"
+						src="/assets/images/login.png"
 						alt=""
 					/>
 				</div>

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const NavBar = () => {
 	return (
 		<nav className="bg-gray-900 border-b-[0.6px] border-white fixed w-full z-20 top-0">
@@ -13,7 +15,7 @@ const NavBar = () => {
 					</span>
 				</a>
 				<div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-					<a href="/">
+					<Link to="/">
 						<button
 							id="logout"
 							type="button"
@@ -21,7 +23,7 @@ const NavBar = () => {
 						>
 							logout
 						</button>
-					</a>
+					</Link>
 					<button
 						data-collapse-toggle="navbar-cta"
 						type="button"
@@ -53,21 +55,21 @@ const NavBar = () => {
 				>
 					<ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  bg-gray-800 md:bg-gray-900 border-gray-700">
 						<li>
-							<a
-								href="/dashboard"
+							<Link
+								to="/dashboard"
 								className="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700"
 								aria-current="page"
 							>
 								Home
-							</a>
+							</Link>
 						</li>
 						<li>
-							<a
-								href="/decks/create"
+							<Link
+								to="/dashboard"
 								className="block py-2 px-3 md:p-0 rounded  md:hover:text-blue-500 text-white hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
 							>
 								Create
-							</a>
+							</Link>
 						</li>
 					</ul>
 				</div>

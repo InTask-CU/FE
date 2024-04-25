@@ -10,7 +10,7 @@ const SignUp = () => {
 				<div className="hidden lg:flex items-center">
 					<img
 						className="aspect-auto w-full"
-						src="/public/assets/images/signup.png"
+						src="/assets/images/signup.png"
 						alt=""
 					/>
 				</div>
